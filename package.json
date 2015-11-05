@@ -1,0 +1,29 @@
+{
+  "name": "smgp4node",
+  "version": "0.1.0",
+  "description": "A wrapper of SMGP C-API for node.js.",
+  "homepage": "https://github.com/luckymark/smgp4node",
+  "start": "node-debug index.js",
+  "license": "MIT",
+  "keywords": [
+    "SMGP"
+  ],
+  "author": {
+    "name": "Mark Feng",
+    "email": "luckyzhigang@gmail.com",
+    "url": "https://github.com/luckymark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luckymark/smgp4node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luckymark/smgp4node/issues"
+  },
+  "dependencies": {
+    "ffi": "^2.0.0",
+    "ref": "^1.2.0",
+    "ref-array": "^1.1.2",
+    "ref-struct": "^1.0.2"
+  }
+}
